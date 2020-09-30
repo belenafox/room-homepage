@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Room homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,45 +17,125 @@
   </style>
 </head>
 <body>
-  Home
-  Shop
-  About
-  Contact
 
-  Discover innovative ways to decorate
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form andnfunction in bringing your vision to life. Create a room in your 
-  own style with our collection and make your property a reflection of you and what you love.
+  <header>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
 
-  Shop now
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-7">
+              <img src="./images/desktop-image-hero-1.jpg" lazy="loading" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-5">
+              Discover innovative ways to decorate
 
-  We are available all across the globe
+              We provide unmatched quality, comfort, and style for property owners across the country. 
+              Our experts combine form andnfunction in bringing your vision to life. Create a room in your 
+              own style with our collection and make your property a reflection of you and what you love.
 
-  With stores all over the world, it's easy for you to find furniture for your home or place of business. 
-  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
-  store locator. Any questions? Don't hesitate to contact us today.
+              Shop now
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-7">
+              <img src="./images/desktop-image-hero-2.jpg" lazy="loading" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-5">
+              We are available all across the globe
 
-  Shop now
+              With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+              Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+              store locator. Any questions? Don't hesitate to contact us today.
 
-  Manufactured with the best materials
+              Shop now
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-7">
+              <img src="./images/desktop-image-hero-3.jpg" lazy="loading" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-5">
+              Manufactured with the best materials
 
-  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
-  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
-  experience in this industry, we understand what customers want for their home and office.
+              Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+              to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+              experience in this industry, we understand what customers want for their home and office.
 
-  Shop now
+              Shop now
+            </div>
+          </div>
+        </div>
 
-  About our furniture
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-  Our multifunctional collection blends design and function to suit your individual taste.
-  Make each room unique, or pick a cohesive theme that best express your interests and what
-  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-  or anything in between. Product specialists are available to help you create your dream space.
+  <main>
+    <div class="row">
+      <div class="col-4">
+        <img src="./images/image-about-dark.jpg" lazy="loading" class="d-block w-100" alt="...">
+      </div>
+      <div class="col-4">
+        About our furniture
+
+        Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.
+      </div>
+      <div class="col-4">
+        <img src="./images/image-about-light.jpg" lazy="loading" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 </body>
 </html>
